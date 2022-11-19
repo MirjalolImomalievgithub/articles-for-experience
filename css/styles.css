@@ -16,7 +16,8 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   height: 100%;
@@ -72,6 +73,7 @@ img {
   align-items: center;
   width: 100%;
   max-width: 600px;
+  padding: 24px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -90,6 +92,8 @@ img {
   margin-bottom: 24px;
   text-transform: uppercase;
   color: #fff;
+  font-family: "Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 .hero-link {
@@ -99,6 +103,15 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: "Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
+}
+
+.hero-link:hover {
+  background-color: rgba(30, 144, 255, 0.8);
+}
+
+.hero-link:active {
+  background-color: rgba(30, 144, 255, 0.6);
 }
 
 .hero-link-inner {
